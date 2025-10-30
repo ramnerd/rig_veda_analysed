@@ -10,8 +10,6 @@
 
 This project is a data-driven exploration of the Rig Veda, one of the oldest extant texts in any Indo-European language. By applying modern data science and visualization techniques, this analysis seeks to reveal quantitative insights and visualize complex patterns related to its structure, content, and themes.
 
-**[Add a brief, 1-2 sentence summary of your most important finding or the main goal of the project here.]**
-
 ---
 
 ## 🔬 Domains Covered & Key Features
@@ -30,7 +28,7 @@ This analysis is built around several key domains of inquiry. **[Feel free to ad
 ### 3. 📜 Linguistic & Textual Analysis
 * **Word Frequency:** Identifying the most common and significant non-deity words.
 * **Vocabulary Richness:** Comparing the unique vocabulary used in different Mandalas (e.g., the "family books" vs. the later books).
-* **[Add any other linguistic analysis you performed, e.g., n-gram analysis, topic modeling, etc.]**
+
 
 ### 4. 👨‍👩‍👧 Rishi & Authorship Analysis
 * **Hymn Distribution:** Visualizing the distribution of hymns attributed to different Rishis (sages) and their families.
@@ -45,18 +43,16 @@ This analysis is built around several key domains of inquiry. **[Feel free to ad
 ## 🛠️ Technology Stack
 
 * **Core Language:** Python
-* **Data Analysis & Manipulation:** Pandas, NumPy
-* **Text Processing:** NLTK, spaCy, or [Your library]
-* **Visualization:** Matplotlib, Seaborn, Plotly, or [Your library]
+* **Data Analysis & Manipulation:** Pandas, NumPy, MatPlotLib, SeaBorn, Scikit-learn, Tensorflow, Keras, PyTorch
+* **Text Processing:** NLTK, spaCy
+* **Visualization:** Matplotlib, Seaborn, Plotly
 * **Development Environment:** Jupyter Notebooks
-* **[Add any other tools: e.g., Streamlit/Dash (if it's a web app), Geopandas (for maps), etc.]**
-
 ---
 
 ## 📚 Dataset
 
-The analysis for this project was performed on **[Describe your dataset here. For example: "a public domain version of the Rig Veda Samhita in Sanskrit transliteration, sourced from..."]**.
-
-Any significant pre-processing steps, such as text cleaning, normalization, or translation, should be detailed in **[link to your data processing notebook or script]**.
+1. I have taken the commentraies that explain various terminologies of each words like SOMA from both Indian scholars like Sayanas commentraies of 14th century and other western scholars from 1800s to present
+2. I Have taken the dataset of 10 Mandals or rig veda from Archive.org
+3. I have extracted all other sub datasets from the above two datasets
 
 ---
