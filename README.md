@@ -1,4 +1,5 @@
-##**You Can directly view the OUTPUT OF THIS PROJECT IN SIMPLE WAY FOR free here https://raman-hacks.onrender.com/**
+# You Can directly view the OUTPUT OF THIS PROJECT IN SIMPLE WAY FOR free here https://raman-hacks.onrender.com/ 
+
 # Rig Veda Analysed
 
 > A data analytics and computational linguistics project aimed at uncovering patterns, themes, and insights from the ancient text of the Rig Veda.
