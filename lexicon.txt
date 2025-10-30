@@ -1,0 +1,920 @@
+{
+    word: "Agni (अग्नि)",
+    root: "√ag 'to move'",
+    short_meaning: "The divine fire; priest of the gods and messenger to them.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "The foremost ('agrī') deity of the sacrifice who acts as the divine priest (hotṛ) and messenger, carrying oblations from humans to the gods." },
+        { source: "Stephanie Jamison (Western)", meaning: "The personification of the physical sacrificial fire, central to the Vedic ritual. His roles as priest and messenger are functional descriptions of the fire's role in the rite." },
+        { source: "Aurobindo (Indian)", meaning: "The divine Will-Force or dynamic consciousness. Internally, Agni is the 'psychic fire,' the divine spark within that aspires for truth and light." }
+    ]
+},
+{
+    word: "Indra (इन्द्र)",
+    root: "√ind 'to be powerful'",
+    short_meaning: "The king of the gods; deity of thunder, storms, and battle.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "The divine warrior king who slays the demon Vṛtra to release the celestial waters (clouds), thereby ensuring prosperity. He is the foremost recipient of Soma." },
+        { source: "Max Müller (Western)", meaning: "A primary nature deity representing the atmospheric phenomena of thunderstorms and monsoons. The myth of slaying Vṛtra is a dramatic portrayal of the storm breaking the drought." },
+        { source: "Aurobindo (Indian)", meaning: "The illumined Mind, the divine mental power that descends to break down the limitations of the lower consciousness (Vṛtra) and bring down divine light." }
+    ]
+},
+{
+    word: "Hotṛ (होतृ)",
+    root: "√hu 'to call, to sacrifice'",
+    short_meaning: "The invoking priest in the Vedic ritual.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "The chief priest whose function is to invoke the gods by reciting the hymns of the Rig Veda to invite them to the sacrifice." },
+        { source: "Hermann Oldenberg (Western)", meaning: "A specific ritual functionary in the complex sacrificial system. The term is technical, referring to the priest responsible for the Rig Vedic recitations, with Agni being his divine counterpart." }
+    ]
+},
+{
+    word: "Adhvara (अध्वर)",
+    root: "a-dhvara 'without hurt'",
+    short_meaning: "The 'uninterrupted' or 'unharmed' sacrifice.",
+    commentaries: [
+        { source: "Yāska (Indian)", meaning: "A synonym for yajña (sacrifice), derived from 'na dhvara,' meaning that which is not injured or crooked. It emphasizes a sacrifice free from violence or destructive forces." },
+        { source: "Joel Brereton (Western)", meaning: "An epithet for the sacrifice, likely highlighting its ideal state as a well-ordered, successful ritual journey that proceeds without interruption from malevolent forces or ritual error." }
+    ]
+},
+{
+    word: "Marutaḥ (मरुतः)",
+    root: "Possibly √mṛ 'to die' or related to wind",
+    short_meaning: "Storm deities; warrior companions of Indra.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "A troop of storm gods, sons of Rudra, who are armed with lightning and thunder. They are Indra's allies in his battle against Vṛtra." },
+        { source: "Ralph T.H. Griffith (Western)", meaning: "Personifications of the violent winds and storms. Their hymns are vivid descriptions of tempests, emphasizing their sound, movement, and destructive/creative power." },
+        { source: "Aurobindo (Indian)", meaning: "The Life-Powers or thought-forces of the human mind. They are dynamic energies that, when properly directed, can break down mental barriers and support the illumined action of Indra." }
+    ]
+},
+{
+    word: "Satya (सत्य)",
+    root: "sat 'being, existence'",
+    short_meaning: "Truth, reality, that which truly is.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "Truthfulness in speech and action, and the factual reality of things. It is often linked to Ṛta, the cosmic order, as its foundation." },
+        { source: "Western Philology", meaning: "Derived from 'sat,' the present participle of 'to be.' It denotes 'what is real' or 'existent.' Its meaning is primarily ontological (related to being) before it becomes purely ethical." }
+    ]
+},
+{
+    word: "Brahmaṇaspati (ब्रह्मणस्पति)",
+    root: "brahman 'prayer' + pati 'lord'",
+    short_meaning: "Lord of Prayer; a divine sage and priest.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "The deity who is the lord and protector of the sacred mantra (brahman). He is a divine priest who ensures the efficacy of the prayer and is often identified with Bṛhaspati." },
+        { source: "Arthur Macdonell (Western)", meaning: "An abstract deity originating from the personification of the power of prayer. He represents the sacral speech of the ritual being elevated to divine status." }
+    ]
+},
+{
+    word: "Śunaḥśepa (शुनःशेप)",
+    root: "śunaḥ 'dog's' + śepa 'tail'",
+    short_meaning: "A rishi famously bound for sacrifice and rescued by the gods.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "The name of a rishi who, when bound to the sacrificial post, prayed to various gods (especially Varuṇa) and was miraculously freed. The story exemplifies the power of prayer and divine grace." },
+        { source: "Michael Witzel (Western)", meaning: "A legendary narrative, possibly reflecting ancient human sacrifice rituals or their substitution. The name itself is peculiar and likely symbolic, forming the core of a foundational Vedic legend about divine intervention." }
+    ]
+},
+{
+    word: "Pūṣan (पूषन्)",
+    root: "√pūṣ 'to cause to thrive, nourish'",
+    short_meaning: "A pastoral solar deity, guardian of paths and flocks.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "The nourisher, who protects livestock, finds lost cattle, and ensures safety on roads. He is a benevolent deity associated with prosperity and safe travel." },
+        { source: "Western Scholarship", meaning: "A solar deity connected with pastoral life. His role as a guardian of paths reflects the sun's journey across the sky, which guides travelers. He represents a key aspect of the Vedic pastoral economy." }
+    ]
+},
+{
+    word: "Dāna-stuti (दानस्तुति)",
+    root: "dāna 'gift' + stuti 'praise'",
+    short_meaning: "A hymn of praise for a gift, typically from a patron.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "A type of hymn where the rishi praises the generosity of his patron king (yajamāna) who has gifted him cows, horses, or gold in return for his priestly services." },
+        { source: "Stephanie Jamison (Western)", meaning: "A genre of hymn that provides crucial socio-economic insight into the Vedic world. These hymns are 'transactional,' documenting the relationship between the poet-priest and the warrior-patron, revealing the material basis of the sacrifice." }
+    ]
+},
+
+// Words associated with Maṇḍala 2 (The Gṛtsamada Family Book)
+{
+    word: "Gṛtsamada (गृत्समद)",
+    root: "gṛt 'skilled' + mada 'inspired'",
+    short_meaning: "The rishi associated with Mandala 2.",
+    commentaries: [
+        { source: "Traditional Indian View", meaning: "A renowned rishi, head of a priestly family, to whom the hymns of the second Mandala are attributed. He is celebrated for his wisdom and poetic skill." },
+        { source: "Western Historical View", meaning: "The eponymous ancestor of a clan of poets. The name likely represents a lineage or school of composition rather than a single historical individual responsible for all the hymns." }
+    ]
+},
+{
+    word: "Rudra (रुद्र)",
+    root: "√rud 'to howl, to roar' or 'to be red'",
+    short_meaning: "The fierce god of the storm, wind, and the wilderness.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "The 'Howler' or 'Roarer,' a formidable deity associated with storms and disease. He is prayed to for mercy and for the health of family and cattle, asked to aim his arrows elsewhere." },
+        { source: "Arthur Macdonell (Western)", meaning: "A minor but feared atmospheric deity in the Rig Veda, representing the destructive aspects of storms. He is seen as a precursor to the post-Vedic deity Shiva." }
+    ]
+},
+{
+    word: "Apāṁ Napāt (अपां नपात्)",
+    root: "apām 'of waters' + napāt 'offspring'",
+    short_meaning: "The 'Son of the Waters,' a form of Agni residing in water.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "A specific form of Agni who exists within the celestial waters (clouds) as lightning. He is swift and shines without fuel, emerging from the waters." },
+        { source: "Western Comparative Mythology", meaning: "An Indo-Iranian deity (cognate with Avestan Apąm Napāt) representing the 'fire in the water.' This figure is an ancient personification of the paradoxical energy (lightning, natural gas, or poetic inspiration) found within the waters." }
+    ]
+},
+{
+    word: "Dhī (धी)",
+    root: "√dhyā 'to think, contemplate'",
+    short_meaning: "Inspired thought, vision, intelligence, prayer.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "Often refers to the action, the religious act or the prayer itself. A 'sudhī' is one who performs good actions or prayers." },
+        { source: "Jan Gonda (Western)", meaning: "A central concept representing the 'visionary flash' or 'inspired thought' of the rishi. It's not just intellect, but a form of supranormal perception through which the hymns were 'seen'." }
+    ]
+},
+{
+    word: "Gharma (घर्म)",
+    root: "√ghṛ 'to sprinkle, to be warm'",
+    short_meaning: "A hot cauldron for milk offering; the offering itself.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "The Mahāvīra pot, a sacred earthen vessel heated to high temperatures for the Pravargya rite, an offering of hot milk to the Aśvins." },
+        { source: "Hermann Oldenberg (Western)", meaning: "A specific and ancient ritual implement and the associated ceremony. The rite is likely solar in nature, with the hot cauldron symbolizing the sun." }
+    ]
+},
+{
+    word: "Āditya (आदित्य)",
+    root: "aditi 'boundlessness'",
+    short_meaning: "Son of Aditi; a group of sovereign deities.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "The sons of the goddess Aditi, including major deities like Varuṇa, Mitra, and Aryaman. They are upholders of Ṛta and cosmic morality." },
+        { source: "Aurobindo (Indian)", meaning: "The powers of the infinite, pure consciousness (Aditi). They represent the eternal principles of Truth, Light, and Vastness that govern the higher planes of existence." }
+    ]
+},
+{
+    word: "Ratha (रथ)",
+    root: "√ṛ 'to go'",
+    short_meaning: "Chariot, vehicle of gods and warriors.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "The physical, horse-drawn chariot used in battle and as a vehicle for the gods to attend the sacrifice. It is a symbol of power and speed." },
+        { source: "Western Historical View", meaning: "A key piece of military technology of the Indo-Aryans, reflecting the realities of Bronze Age warfare. The hymns' detailed descriptions of chariots provide historical data on their construction and use." }
+    ]
+},
+{
+    word: "Vṛtrahan (वृत्रहन्)",
+    root: "Vṛtra + han 'slayer'",
+    short_meaning: "The slayer of Vṛtra, a primary epithet of Indra.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "He who killed the demon Vṛtra. This is Indra's most celebrated title, commemorating his central cosmic deed of liberating the waters." },
+        { source: "Aurobindo (Indian)", meaning: "The force that destroys the inner 'obstructor' (Vṛtra). It represents the power of the illumined mind to break through the coverings of ignorance and release streams of divine consciousness." }
+    ]
+},
+{
+    word: "Śukra (शुक्र)",
+    root: "√śuc 'to shine, glow'",
+    short_meaning: "Bright, brilliant, pure; often refers to Soma.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "An adjective meaning 'bright' or 'resplendent,' frequently used to describe the Soma juice, Agni's flames, or the rays of the dawn." },
+        { source: "Western Philology", meaning: "A common Indo-European root for 'bright' or 'white.' Its application to Soma highlights the visual appearance of the filtered juice, connecting the ritual to fundamental sensory experiences." }
+    ]
+},
+{
+    word: "Sūnṛtā (सूनृता)",
+    root: "su 'good' + nṛta 'dance, activity'",
+    short_meaning: "Bounteousness, gladness, joyful truth.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "Pleasant and true speech (priyā ca satyā ca vāk). Also personified as a goddess of bounty and gladness who brings rewards." },
+        { source: "Jan Gonda (Western)", meaning: "A complex term encompassing concepts of 'bounty,' 'vitality,' and 'joyful energy.' It represents the positive, life-affirming force that is a major goal of the Vedic prayer and ritual." }
+    ]
+},
+
+// Words associated with Maṇḍala 3 (The Viśvāmitra Family & Gāyatrī)
+{
+    word: "Viśvāmitra (विश्वामित्र)",
+    root: "viśva 'all' + mitra 'friend'",
+    short_meaning: "Friend of all; the rishi of Mandala 3.",
+    commentaries: [
+        { source: "Traditional Indian View", meaning: "A great rishi, famously born a kṣatriya who became a brahmarṣi through intense tapas. He is the seer of the Gāyatrī mantra and represents the power of human will to achieve spiritual status." },
+        { source: "Western Historical View", meaning: "The head of the Viśvāmitra clan, rivals of the Vasiṣṭha clan. His hymns, particularly the river hymn (3.33), may reflect historical events like the migration of the Bharata tribe." }
+    ]
+},
+{
+    word: "Gāyatrī (गायत्री)",
+    root: "√gai 'to sing'",
+    short_meaning: "A sacred Vedic meter; the famous mantra RV 3.62.10.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "A poetic meter of 24 syllables (3x8). The mantra itself is a prayer to Savitṛ to stimulate our inspired thoughts (dhiyaḥ)." },
+        { source: "Modern Hindu Tradition", meaning: "The most sacred mantra of the Veda, personified as a goddess. It is considered the essence of the Vedas and a prayer for universal spiritual illumination." }
+    ]
+},
+{
+    word: "Savitṛ (सवितृ)",
+    root: "√sū 'to impel, stimulate'",
+    short_meaning: "The Impeller; a solar deity of inspiration.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "The aspect of the sun before it rises, who impels all creatures to their tasks. He is the deity invoked in the Gāyatrī mantra to stimulate our intelligence." },
+        { source: "Max Müller (Western)", meaning: "A distinct solar deity from Sūrya, representing the abstract, dynamic, and life-giving power of the sun, rather than just the physical orb." },
+        { source: "Aurobindo (Indian)", meaning: "The Divine Creator and the source of all inspiration. He represents the highest truth-light of the supermind which impels the human being towards spiritual transformation." }
+    ]
+},
+{
+    word: "Bhargaḥ (भर्गः)",
+    root: "√bhrāj 'to shine'",
+    short_meaning: "Effulgence, radiance, splendor.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "The divine radiance or luster of the god Savitṛ, which destroys sin. We meditate on this light." },
+        { source: "Dayananda Saraswati (Indian)", meaning: "The 'destroyer of sorrows' and 'bestower of bliss.' It is the pure, conscious, blissful nature of God himself, not just his light." }
+    ]
+},
+{
+    word: "Vipāś (विपाश्) / Śutudrī (शुतुद्री)",
+    root: "Vipāś: 'unfettered'; Śutudrī: 'swiftly flowing'",
+    short_meaning: "The Beas and Sutlej rivers, personified in hymn 3.33.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "Two personified rivers who converse with the rishi Viśvāmitra, who persuades them to lower their waters so his tribe, the Bharatas, can cross." },
+        { source: "Ralph T.H. Griffith (Western)", meaning: "A remarkable hymn that likely commemorates a historical event – the crossing of these two major rivers in the Punjab by the Indo-Aryans during their eastward migration." }
+    ]
+},
+{
+    word: "Kratu (क्रतु)",
+    root: "√kṛ 'to do, make'",
+    short_meaning: "Mental power, intelligence, determination, sacrificial plan.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "Refers to both wisdom (prajñā) and action/work (karma), specifically the plan or intelligence behind the performance of a sacrifice." },
+        { source: "Aurobindo (Indian)", meaning: "The divine will-in-action or effective power of consciousness. It is the determination and intelligence that executes the divine work, often associated with Agni." }
+    ]
+},
+{
+    word: "Yūpa (यूप)",
+    root: "√yu 'to bind, fasten'",
+    short_meaning: "The sacrificial post to which the animal victim is tied.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "The consecrated wooden post, often addressed as a deity itself (Vanaspati), that is a central element of the animal sacrifice." },
+        { source: "Mircea Eliade (Western)", meaning: "A symbolic representation of the *Axis Mundi* or Cosmic Tree, connecting the Earth to the Heavens. The sacrifice at the post is a ritual to regenerate cosmic order." }
+    ]
+},
+{
+    word: "Jamadagni (जमदग्नि)",
+    root: "jamad 'consuming' + agni 'fire'",
+    short_meaning: "A famous rishi, one of the 'seven sages'.",
+    commentaries: [
+        { source: "Traditional Indian View", meaning: "A great brahmin sage, father of Paraśurāma, and a seer of Vedic hymns. His name, 'consuming fire,' reflects his powerful tapas." },
+        { source: "Western Scholarship", meaning: "The ancestral name of a priestly family. The legends associated with him in later texts (like the Purāṇas) are post-Vedic developments that elaborate on the minimal details found in the Rig Veda." }
+    ]
+},
+{
+    word: "Indrāgnī (इन्द्राग्नी)",
+    root: "Indra + Agni",
+    short_meaning: "A dual divinity combining Indra and Agni.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "A joint invocation of the two most important Vedic gods, Indra and Agni, combining their respective powers of martial strength and priestly wisdom." },
+        { source: "Arthur Macdonell (Western)", meaning: "An example of a 'dual divinity,' a common feature in the Rig Veda. This pairing synthetically combines the attributes of the warrior-king and the priest-god, representing the complete power of the Vedic pantheon." }
+    ]
+},
+{
+    word: "Bharata (भरत)",
+    root: "√bhṛ 'to bear, maintain'",
+    short_meaning: "Name of a prominent Vedic tribe.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "The name of the tribe led by King Sudās, for whom Viśvāmitra and later Vasiṣṭha served as priests. They are the victors in the 'Battle of the Ten Kings'." },
+        { source: "Michael Witzel (Western)", meaning: "A specific Indo-Aryan tribe whose historical movements and conflicts are partly documented in the Rig Veda. Their eventual dominance gave their name to the entire land, 'Bhārata'." }
+    ]
+},
+// Words associated with Maṇḍala 4 (The Vāmadeva Family Book)
+{
+    word: "Vāmadeva (वामदेव)",
+    root: "vāma 'lovely, beautiful' + deva 'god'",
+    short_meaning: "The rishi of Mandala 4, known for mystical hymns.",
+    commentaries: [
+        { source: "Traditional Indian View", meaning: "A rishi who possessed knowledge of his past lives even while in the womb (RV 4.27), famously declaring 'I was Manu, and the Sun...' (RV 4.26). This illustrates the concept of jñāna and self-realization." },
+        { source: "Western Scholarship", meaning: "The ancestral seer of the Vāmadeva clan. The hymns attributed to him contain some of the most philosophically intriguing passages of the Rig Veda, suggesting early speculative thought." }
+    ]
+},
+{
+    word: "Ṛbhu (ऋभु)",
+    root: "√rabh 'to grasp'",
+    short_meaning: "Divine artisans, originally human, who attained immortality.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "Three mortal brothers (Ṛbhu, Vāja, Vibhvan) who, through their incredible skill in craftsmanship (like making Indra's horses and a cup that multiplies), performed divine deeds and earned immortality and a share in the sacrifice." },
+        { source: "Ralph T.H. Griffith (Western)", meaning: "Likely representing elfin or gnome-like figures associated with seasonal or solar phenomena. Their deification reflects the high value placed on craftsmanship and creative skill in the Vedic culture." }
+    ]
+},
+{
+    word: "Dadhikrā (दधिक्रा)",
+    root: "dadhi 'curdled milk' + √krā 'to stride'",
+    short_meaning: "A mythical, divine horse, a symbol of the morning sun.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "A divine horse, swift as an eagle, invoked in the morning to grant victory and wealth. The name may refer to one who 'scatters' curdled milk as an offering." },
+        { source: "Max Müller (Western)", meaning: "A personification of the rapidly moving morning sun. The name is interpreted as symbolizing the sun's swift course, and the hymns to him are morning prayers for a successful day." }
+    ]
+},
+{
+    word: "Kṣetrasya Pati (क्षेत्रस्य पति)",
+    root: "kṣetra 'field' + pati 'lord'",
+    short_meaning: "The Lord of the Field, a deity of agriculture.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "A deity who presides over cultivated land, prayed to for 'sweet and honeyed' rain, bountiful crops, and the well-being of the farmer." },
+        { source: "Western Scholarship", meaning: "A tutelary deity of the field, reflecting the growing importance of agriculture in Vedic society. Such deities are common in agrarian cultures, personifying the spirit of the land." }
+    ]
+},
+{
+    word: "Śyena (श्येन)",
+    root: "Uncertain",
+    short_meaning: "A hawk or eagle, famous for bringing Soma from heaven.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "The divine eagle who bravely flew to heaven, past divine archers, to steal the Soma for mankind and the gods. This is a central myth of the Soma sacrifice." },
+        { source: "Western Comparative Mythology", meaning: "A parallel to the Greek myth of Prometheus stealing fire, or the eagle of Zeus. It's an Indo-European trope of a heroic bird bringing a divine element from the celestial realm to the terrestrial." }
+    ]
+},
+{
+    word: "Añjas (अञ्जस्)",
+    root: "√añj 'to anoint, make clear'",
+    short_meaning: "Directly, straightaway, truly.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "An adverb meaning 'quickly' or 'truly.' For example, 'May the gods come quickly to the sacrifice'." },
+        { source: "Aurobindo (Indian)", meaning: "Represents the straight path of truth, as opposed to the crooked path of falsehood (anṛta). It signifies a direct, unadulterated movement of consciousness towards the divine." }
+    ]
+},
+{
+    word: "Vājin (वाजिन्)",
+    root: "vāja 'strength, prize, speed'",
+    short_meaning: "A swift horse, a hero, a prize-winner.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "Literally, a 'possessor of vāja (food or strength).' It refers to a strong, swift horse, especially a racehorse, and metaphorically to a heroic warrior or even the gods." },
+        { source: "Joel Brereton (Western)", meaning: "A term central to the Vedic 'contest economy.' 'Vāja' is the prize or booty won in a race or battle. A 'vājin' is a contender for this prize, whether a horse in a race or a warrior in a raid." }
+    ]
+},
+{
+    word: "Trasadasyu (त्रसदस्यु)",
+    root: "trasa 'trembling' + dasyu 'foe'",
+    short_meaning: "'He who makes the Dasyus tremble,' a famous king.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "A great king of the Pūru tribe, son of Purukutsa, whose name means he is a terror to the Dasyus (enemies). He is a model patron of the sacrifice." },
+        { source: "Western Historical View", meaning: "A historical or semi-historical kingly figure whose name reflects the ongoing conflict between the Vedic Aryans and the indigenous 'Dasyu' population." }
+    ]
+},
+{
+    word: "Gṛha (गृह)",
+    root: "√grah 'to grasp, hold'",
+    short_meaning: "A house, home, dwelling place.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "The physical house and household, the center of family life and the domestic fire (gārhapatya agni)." },
+        { source: "Aurobindo (Indian)", meaning: "Symbolically, the 'house' can refer to the human body or the established state of consciousness. Building a 'house' for the gods means establishing a firm and ordered consciousness for the divine powers to dwell within." }
+    ]
+},
+{
+    word: "Mánas (मनस्)",
+    root: "√man 'to think'",
+    short_meaning: "The mind as an instrument of thought, will, and emotion.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "The mind, the seat of thought and feeling. Prayers are often directed to purify the manas or direct it towards the gods." },
+        { source: "Upanishadic Thought (Indian)", meaning: "The inner organ (antaḥkaraṇa), which is the faculty of thought, doubt, and desire. It is considered a subtle form of matter, distinct from the pure consciousness (cit) of the Ātman." }
+    ]
+},
+
+// Words associated with Maṇḍala 5 (The Atri Family Book)
+{
+    word: "Atri (अत्रि)",
+    root: "√ad 'to eat'",
+    short_meaning: "'Devourer,' the rishi of Mandala 5.",
+    commentaries: [
+        { source: "Traditional Indian View", meaning: "A great rishi, one of the seven sages, who was famously rescued by the Aśvins from a fiery pit. He represents one who has 'devoured' suffering and darkness through his devotion." },
+        { source: "Western Scholarship", meaning: "The eponymous ancestor of the Atri clan. The hymns of Mandala 5 show a distinct, systematic arrangement by deity, suggesting a more scholastic or organized priestly tradition." }
+    ]
+},
+{
+    word: "Viśvavārā (विश्ववारा)",
+    root: "viśva 'all' + vāra 'treasure'",
+    short_meaning: "'She who possesses all treasures,' a female rishi.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "A female seer (ṛṣikā) from the Atri family, who composed a hymn to Agni (RV 5.28). Her presence demonstrates that women could be seers of the Veda." },
+        { source: "Western Historical View", meaning: "Evidence of the participation of women in the composition of Vedic hymns. While rare, such figures challenge the notion of an exclusively male priestly class in the earliest Vedic period." }
+    ]
+},
+{
+    word: "Svarbhānu (स्वर्भानु)",
+    root: "svar 'sun' + bhānu 'light'",
+    short_meaning: "An asura who eclipses the sun.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "An asura who pierced the sun with darkness, causing an eclipse. The rishi Atri, through his prayers, was able to find the hidden sun and restore its light." },
+        { source: "Western Naturalistic View", meaning: "A mythological explanation for a solar eclipse. The story elevates the rishi Atri to a figure with cosmic power, capable of reversing a terrifying natural event through ritual knowledge." }
+    ]
+},
+{
+    word: "Rākā (राका)",
+    root: "√rā 'to give'",
+    short_meaning: "A goddess of wealth and the full moon.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "A divine female personifying the full moon day. She is invoked as a generous goddess who grants wealth, heroes, and easy childbirth." },
+        { source: "Arthur Macdonell (Western)", meaning: "A minor goddess representing the personification of a specific, auspicious time in the lunar calendar. Her worship reflects the importance of lunar cycles in the Vedic ritual world." }
+    ]
+},
+{
+    word: "Sinīvālī (सिनीवाली)",
+    root: "Uncertain",
+    short_meaning: "A goddess of procreation and the new moon.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "A goddess associated with the new moon day (or the day just before it). She is prayed to for granting children and for safe delivery." },
+        { source: "Western Scholarship", meaning: "Along with Rākā, Gungū, and Kuhū, she is one of the personified goddesses of the phases of the moon, highlighting a detailed ritual attention to the lunar calendar, especially regarding procreation." }
+    ]
+},
+{
+    word: "Dyumnam (द्युम्नम्)",
+    root: "√dyu 'to be bright'",
+    short_meaning: "Splendor, glory, strength, wealth.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "Often translated as 'wealth' (dhanam) or 'strength' (balam), but also carries the sense of luminous glory or fame that comes from divine favor." },
+        { source: "Jan Gonda (Western)", meaning: "A key term representing 'lustrous-vital-power.' It is not just material wealth but a charismatic, shining strength and prestige that marks a successful Vedic hero." }
+    ]
+},
+{
+    word: "Aryaman (अर्यमन्)",
+    root: "arya 'noble, stranger'",
+    short_meaning: "A deity of social customs, contracts, and hospitality.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "One of the Ādityas, often invoked with Mitra and Varuṇa. He presides over social conventions, particularly those related to marriage and hospitality." },
+        { source: "Émile Benveniste (Western)", meaning: "A crucial Indo-European social concept representing the abstract principle of 'being an Ārya,' which includes the duties of hospitality and maintaining the social fabric of the community. He is the deification of this principle." }
+    ]
+},
+{
+    word: "Tryambaka (त्र्यम्बक)",
+    root: "tri 'three' + ambaka 'eyes'",
+    short_meaning: "'Three-eyed one,' an epithet of Rudra.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "An epithet of Rudra, interpreted later as 'he who has three eyes' (the sun, moon, and fire). In the Veda, it might also mean 'having three mothers,' though the meaning is debated." },
+        { source: "Western Scholarship", meaning: "A famous epithet of Rudra, found in the Mahā-mṛtyuñjaya mantra (though that mantra is primarily in the Yajur Veda, the name appears in RV 7.59.12). Its origin is obscure, but it became central to the later iconography of Shiva." }
+    ]
+},
+{
+    word: "Parjanya (पर्जन्य)",
+    root: "Uncertain",
+    short_meaning: "The personification of the rain cloud.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "The god of rain, who thunders and roars, fertilizing the earth with his downpour. He is the divine 'bull' who impregnates the plants." },
+        { source: "Max Müller (Western)", meaning: "A clear example of a nature deity, the personification of the rain-cloud, often likened to the Lithuanian thunder god Perkūnas, showing a common Indo-European root." }
+    ]
+},
+{
+    word: "Śyāvāśva (श्यावाश्व)",
+    root: "śyāva 'dark brown' + aśva 'horse'",
+    short_meaning: "'He of the dark horse,' a rishi of the Atri family.",
+    commentaries: [
+        { source: "Traditional Indian View", meaning: "A rishi of the Atri lineage who composed several hymns in Mandala 5. His name, like many rishi names, is patronymic or descriptive." },
+        { source: "Western Scholarship", meaning: "The name of a Vedic poet. The hymns attributed to him are valuable for their linguistic and cultural content, providing insight into the poetic conventions of his time." }
+    ]
+},
+// Words associated with Maṇḍala 6 (The Bharadvāja Family Book)
+{
+    word: "Bharadvāja (भरद्वाज)",
+    root: "bharad 'bringing' + vāja 'prize/strength'",
+    short_meaning: "'Bringer of the prize,' the rishi of Mandala 6.",
+    commentaries: [
+        { source: "Traditional Indian View", meaning: "A great sage, father of Droṇācārya in the Mahābhārata, and the ancestral seer of the Bharadvāja clan, responsible for Mandala 6." },
+        { source: "Western Historical View", meaning: "The eponymous head of a prominent priestly family. Mandala 6, attributed to this clan, has a strong focus on Agni and Indra and contains detailed dāna-stutis, suggesting their close relationship with powerful patrons." }
+    ]
+},
+{
+    word: "Sarasvatī (सरस्वती)",
+    root: "saras 'pool, lake' + vatī 'possessing'",
+    short_meaning: "A sacred river and the goddess of inspiration and speech.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "Primarily, a mighty, physical river that flows from the mountains to the sea, on whose banks sacrifices are performed. She is also a goddess who bestows intelligence and inspiration." },
+        { source: "Ralph T.H. Griffith (Western)", meaning: "Initially the deification of a real river (often identified with the Ghaggar-Hakra in modern Pakistan/India) that was central to the early Vedic civilization. As the river dried up, her character became purely mythological and abstract." },
+        { source: "Aurobindo (Indian)", meaning: "The divine current of Truth-consciousness (ṛta-cit) that flows down from the supermind. She represents divine inspiration, truth-audition (śruti), and the very stream of creative consciousness." }
+    ]
+},
+{
+    word: "Paṇi (पणि)",
+    root: "√paṇ 'to barter, bet'",
+    short_meaning: "A wealthy merchant or hoarder; a class of demonic beings.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "A class of rich but miserly demons or people who do not perform sacrifices and who steal the cows of the Angirasas. Indra and Saramā are sent to retrieve the stolen wealth." },
+        { source: "Western Socio-economic View", meaning: "Possibly a reference to a non-Vedic, indigenous merchant class who were rivals of the Vedic pastoralists. The conflict over 'cows' could be a mythological retelling of actual cattle raids." },
+        { source: "Aurobindo (Indian)", meaning: "Symbolize the dark powers of the physical senses that 'hoard' divine light (represented by cows) and refuse to offer it up to the higher consciousness. They are traffickers in sense-experience, not truth." }
+    ]
+},
+{
+    word: "Go (गो)",
+    root: "√gam 'to go' (disputed)",
+    short_meaning: "Cow; also light, ray, earth, speech.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "Most often means a literal cow, the primary form of wealth for the Vedic people. In other contexts, based on Nirukta, it can mean ray of light, the earth, or speech." },
+        { source: "Aurobindo (Indian)", meaning: "A key symbolic word. It almost always means 'Light' or 'Illumination.' The 'stolen cows' are the lost rays of divine consciousness hidden by the Paṇis. The 'dawn' is the recovery of these 'cows'." }
+    ]
+},
+{
+    word: "Divodāsa (दिवोदास)",
+    root: "divaḥ 'of heaven' + dāsa 'servant'",
+    short_meaning: "'Servant of Heaven,' a famous king and patron.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "A celebrated king of the Bharata tribe, father of Sudās, known for his generosity to his priests (the Bharadvājas) and his victories over the Dāsas, aided by Indra." },
+        { source: "Western Historical View", meaning: "A significant historical king whose reign likely represents an important phase in the expansion of Aryan influence. The hymns mentioning him provide semi-historical accounts of tribal conflicts." }
+    ]
+},
+{
+    word: "Garga (गर्ग)",
+    root: "Uncertain, possibly onomatopoeic",
+    short_meaning: "A rishi of the Bharadvāja lineage.",
+    commentaries: [
+        { source: "Traditional Indian View", meaning: "A Vedic sage and composer of hymns within Mandala 6, belonging to the Bharadvāja gotra." },
+        { source: "Western Scholarship", meaning: "The name associated with a specific poet or sub-clan within the larger Bharadvāja school of hymn composition." }
+    ]
+},
+{
+    word: "Dundubhi (दुन्दुभि)",
+    root: "Onomatopoeic",
+    short_meaning: "The war drum.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "The physical drum used in battle to frighten enemies and inspire warriors. It is addressed as a deity, asked to roar like a lion and secure victory." },
+        { source: "Western Anthropological View", meaning: "A classic example of a ritual object being deified. The sound of the drum is imbued with magical power, and the hymn to it (e.g., RV 6.47) is a form of war magic to ensure success in battle." }
+    ]
+},
+{
+    word: "Pathyā (पथ्या)",
+    root: "pathin 'path'",
+    short_meaning: "Deity of the Path; personified welfare.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "A goddess who presides over paths, ensuring safe and auspicious journeys. She is often invoked alongside Svasti (Welfare) and Pūṣan." },
+        { source: "Western Philology", meaning: "An abstract goddess personifying the 'path' itself. This shows a tendency in Vedic thought to deify not just natural phenomena but also important concepts and aspects of life." }
+    ]
+},
+{
+    word: "Ṛjiśvan (ऋजीश्वन्)",
+    root: "ṛji 'straight, honest' + √śvi 'to swell'",
+    short_meaning: "A king who was an ally of Indra.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "A pious king who aided Indra in his battles against the Dasyus, particularly the demon Pipru, by preparing Soma for him." },
+        { source: "Western Historical View", meaning: "A tribal chieftain whose alliance with the Indra-worshipping Aryans is recorded in mythological terms. Such stories may reflect the historical process of alliances between different groups." }
+    ]
+},
+{
+    word: "Vāstoṣpati (वास्तोष्पति)",
+    root: "vāstoḥ 'of the dwelling' + pati 'lord'",
+    short_meaning: "Lord of the Dwelling; guardian of the household.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "A tutelary deity of the homestead, invoked to protect the house, its inhabitants, and livestock from harm and to grant prosperity." },
+        { source: "Western Scholarship", meaning: "The deification of the 'genius loci' or spirit of the house, a common feature in many ancient religions. He represents the sacrality of the domestic space." }
+    ]
+},
+// Words associated with Maṇḍala 7 (The Vasiṣṭha Family Book)
+{
+    word: "Vasiṣṭha (वसिष्ठ)",
+    root: "vasu 'wealth, good' + iṣṭha 'most'",
+    short_meaning: "'Most excellent' or 'wealthiest,' the rishi of Mandala 7.",
+    commentaries: [
+        { source: "Traditional Indian View", meaning: "A legendary brahmarṣi, one of the seven sages, and the priest of King Sudās. He represents the ideal brahmin, possessing immense spiritual power and wisdom. Famously rivaled Viśvāmitra." },
+        { source: "Western Historical View", meaning: "The head of the Vasiṣṭha clan, a powerful and influential priestly family. Mandala 7 is their family book, and hymn 7.18 (Battle of Ten Kings) celebrates their patron's victory, cementing their high status." }
+    ]
+},
+{
+    word: "Dāśarājña (दाशराज्ञ)",
+    root: "daśa 'ten' + rājña 'kings'",
+    short_meaning: "The Battle of the Ten Kings, a key event in RV 7.18.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "The great battle where King Sudās of the Bharatas, with Indra's help and Vasiṣṭha's prayers, defeated a confederacy of ten hostile kings on the banks of the Paruṣṇī river." },
+        { source: "F. B. J. Kuiper (Western)", meaning: "A historical conflict between various Aryan and non-Aryan tribes, mythologized in the hymn. It represents a pivotal moment in the consolidation of power by the Bharata tribe in the Punjab." }
+    ]
+},
+{
+    word: "Sudās (सुदास्)",
+    root: "su 'good' + dās 'servant, giver'",
+    short_meaning: "'Good giver,' the victorious king in the Battle of Ten Kings.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "A righteous and generous king who was the patron of Vasiṣṭha. His victory was a direct result of his piety and the power of his priest's prayers." },
+        { source: "Western Historical View", meaning: "A powerful chieftain of the Bharata tribe. The hymns dedicated to him are historical sources that shed light on the political landscape and tribal warfare of the early Vedic period." }
+    ]
+},
+{
+    word: "Paruṣṇī (परुष्णी)",
+    root: "paruṣa 'knotted, rough'",
+    short_meaning: "The modern Ravi river, site of the Battle of Ten Kings.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "The name of the river where Indra drowned the enemies of Sudās, securing his victory." },
+        { source: "Western Geography", meaning: "Identified with the modern Ravi River in the Punjab. The hymn's description provides geographical clues about the location of this significant historical event." }
+    ]
+},
+{
+    word: "Āpaḥ (आपः)",
+    root: "√āp 'to obtain, pervade'",
+    short_meaning: "The Waters, personified as divine goddesses.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "The waters, both terrestrial (rivers, rain) and celestial (in the clouds). They are addressed as goddesses who are mothers, purifying, and life-giving." },
+        { source: "Aurobindo (Indian)", meaning: "Symbolize the currents of consciousness. The 'seven rivers' are the seven planes of consciousness that descend from the supermind. Vṛtra's obstruction of the waters is the blockage of these divine currents." }
+    ]
+},
+{
+    word: "Ahi (अहि)",
+    root: "Uncertain",
+    short_meaning: "Serpent, dragon; often refers to Vṛtra.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "A serpent or dragon. It is a common name for the demon Vṛtra, the 'serpent of the drought' who lies upon the mountains holding back the waters." },
+        { source: "Western Comparative Mythology", meaning: "The Vedic cognate for the chaos-serpent figure found in many mythologies (Greek Python, Norse Jörmungandr). The slaying of the 'Ahi' by a hero-god is a foundational myth." }
+    ]
+},
+{
+    word: "Maṇḍūka (मण्डूक)",
+    root: "Uncertain",
+    short_meaning: "A frog.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "The famous Frog Hymn (7.103) is a charm to bring rain. The croaking of the frogs, likened to the chanting of priests, is thought to magically invoke the monsoon." },
+        { source: "Western Anthropological View", meaning: "A fascinating example of sympathetic magic. The hymn imitates the sounds and behavior of frogs, which appear with the rains, in order to magically precipitate the rains themselves." }
+    ]
+},
+{
+    word: "Vrata (व्रत)",
+    root: "√vṛ 'to choose, will'",
+    short_meaning: "A vow, command, fixed ordinance of a god.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "The divine law or ordinance established by the gods, especially Varuṇa. To follow the 'vrata' is to live in accordance with cosmic and moral law (Ṛta)." },
+        { source: "Louis Renou (Western)", meaning: "A central concept denoting the specific 'sphere of competence' or 'fundamental decree' of a deity. Each god has their vrata, which defines their function in the cosmos. Humans must align with these divine ordinances." }
+    ]
+},
+{
+    word: "Pāśa (पाश)",
+    root: "√paś 'to bind'",
+    short_meaning: "A rope, noose, or fetter, especially of Varuṇa.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "The noose with which the god Varuṇa binds those who transgress his laws (vrata). It is a symbol of his power as a moral governor." },
+        { source: "Aurobindo (Indian)", meaning: "Symbolizes the bonds of sin, ignorance, and falsehood. To be freed from Varuṇa's pāśa is to be liberated into the vastness of the pure consciousness he represents." }
+    ]
+},
+{
+    word: "Anṛta (अनृत)",
+    root: "an 'not' + ṛta 'truth/order'",
+    short_meaning: "Untruth, falsehood, disorder; opposite of Ṛta.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "Falsehood, both in speech (lying) and in action (sin). It is the transgression against the cosmic order and is punished by Varuṇa." },
+        { source: "Stephanie Jamison (Western)", meaning: "The direct negation of ṛta. It represents not just a lie but the active force of cosmic and social disorder. The opposition between ṛta and anṛta is a fundamental structuring principle of Vedic thought." }
+    ]
+},
+// Words associated with Maṇḍala 8 (A mixed collection, Kaṇva family)
+{
+    word: "Kaṇva (कण्व)",
+    root: "Uncertain",
+    short_meaning: "A prominent rishi family associated with Mandala 8.",
+    commentaries: [
+        { source: "Traditional Indian View", meaning: "An ancient and highly respected rishi lineage. Mandala 8 is largely their family book and is notable for its unique metrical structures and hymns to the Aśvins." },
+        { source: "Western Scholarship", meaning: "A major priestly clan. The linguistic and stylistic features of Mandala 8, such as the prevalence of the 'pragātha' meter, distinguish it as a distinct compositional school." }
+    ]
+},
+{
+    word: "Pragātha (प्रगाथ)",
+    root: "pra 'forward' + √gai 'to sing'",
+    short_meaning: "A specific strophic meter, common in Mandala 8.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "A type of meter formed by combining a Bṛhatī (8+8+12+8 syllables) stanza with a Satobṛhatī (12+8+12+8 syllables) stanza, used for chanting." },
+        { source: "Western Metrical Analysis", meaning: "A characteristic feature of the Kaṇva hymns in Mandala 8. Its strophic form, where two verses are combined and repeated, makes it suitable for liturgical use in the Soma sacrifice." }
+    ]
+},
+{
+    word: "Vālakhilya (वालखिल्य)",
+    root: "vāla 'hair' + khilya 'barren land'",
+    short_meaning: "A group of 11 supplementary hymns in Mandala 8.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "A collection of hymns attributed to thumb-sized sages, considered by some traditions to be an appendix or later addition to the main Samhita." },
+        { source: "Western Philology", meaning: "A set of hymns considered by most scholars to be a later interpolation into the text of the Rig Veda. Their language and content show signs of being composed later than the surrounding 'family book' hymns." }
+    ]
+},
+{
+    word: "Sobhari (सोभरि)",
+    root: "su 'good' + √bhṛ 'to bear'",
+    short_meaning: "A rishi of the Kaṇva lineage.",
+    commentaries: [
+        { source: "Traditional Indian View", meaning: "A sage of the Kaṇva family who authored several hymns in Mandala 8, praising Indra, the Maruts, and the Aśvins." },
+        { source: "Western Scholarship", meaning: "A poet of the Kaṇva school. His hymns contribute to the body of work that defines the style and thematic focus of this particular priestly clan." }
+    ]
+},
+{
+    word: "Trita Āptya (त्रित आप्त्य)",
+    root: "trita 'third' + āptya 'of the waters'",
+    short_meaning: "'The Third one of the Waters,' a mysterious deity.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "A deity who prepares the Soma in the celestial regions. In some hymns, he takes on sins that Indra wishes to discard. His story is often obscure." },
+        { source: "Western Comparative Mythology", meaning: "An archaic Indo-European figure, 'The Third,' often appearing alongside 'The First' and 'The Second.' He may represent a hero from a more ancient mythological stratum that has been partially incorporated into the Vedic pantheon." }
+    ]
+},
+{
+    word: "Sarpa (सर्प)",
+    root: "√sṛp 'to creep, glide'",
+    short_meaning: "A serpent.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "A snake or serpent. Also the name of a class of mythical beings, and the seer of hymn 10.189 is Sārparājñī, the Serpent Queen." },
+        { source: "Western Anthropological View", meaning: "Serpents in the Veda, as in many cultures, hold a dual significance: they can represent malevolent forces (like Ahi/Vṛtra) or chthonic (earthly) wisdom and guardianship, as in the case of the Sārparājñī." }
+    ]
+},
+{
+    word: "Manu (मनु)",
+    root: "√man 'to think'",
+    short_meaning: "Man, mankind's progenitor, the first sacrificer.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "The first man and the father of the human race. He is considered the first to institute the sacrifice, establishing the model for all future human worship." },
+        { source: "Western Comparative Mythology", meaning: "Cognate with Germanic 'Mannus,' the mythical ancestor of humanity. He represents the archetypal 'Man' and 'Thinker,' establishing the cultural and religious norms for his descendants." }
+    ]
+},
+{
+    word: "Apālā (अपाला)",
+    root: "a 'not' + pāla 'protector'",
+    short_meaning: "A female seer mentioned in Mandala 8.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "A woman suffering from a skin disease who, by offering Soma to Indra, was cured and made 'sun-skinned.' Her story (RV 8.91) shows Indra's grace towards female devotees." },
+        { source: "Stephanie Jamison (Western)", meaning: "A rare but significant female voice in the Rig Veda. Her hymn is personal and deals with bodily concerns, offering a different perspective from the more common themes of battle and cosmic order." }
+    ]
+},
+{
+    word: "Aditi (अदिति)",
+    root: "a 'not' + diti 'binding'",
+    short_meaning: "The unbound, infinite; the mother of the Ādityas.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "The mother of the Āditya gods, and sometimes of all gods. She is the earth, the sky, the mother, the father. She represents the boundless expanse from which all is born." },
+        { source: "Aurobindo (Indian)", meaning: "The pure, infinite, and undivided consciousness of the Divine Mother. She is the ultimate source and substance of all existence, the principle of cosmic boundlessness." }
+    ]
+},
+{
+    word: "Uśanā (उशना)",
+    root: "√vaś 'to desire, will'",
+    short_meaning: "An ancient, wise rishi, associated with the Asuras.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "A wise seer, also known as Kāvya Uśanā, who is credited with hymns in the Rig Veda. In later texts (Purāṇas), he becomes Śukrācārya, the preceptor of the Asuras." },
+        { source: "Western Scholarship", meaning: "An ancient priestly figure, possibly from a pre-Vedic or rival tradition (hence his later association with Asuras). His inclusion in the Rig Veda suggests the integration of various priestly lineages over time." }
+    ]
+},
+// Words associated with Maṇḍala 9 (The Soma Pavamāna Book)
+{
+    word: "Pavamāna (पवमान)",
+    root: "√pū 'to purify'",
+    short_meaning: "The 'self-purifying' or 'flowing clear,' an epithet of Soma.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "Soma as it is being purified by flowing through the wool filter into the collection vats. All hymns in Mandala 9 are addressed to Soma Pavamāna." },
+        { source: "Aurobindo (Indian)", meaning: "The current of divine bliss (Ananda) as it purifies itself and flows through all the levels of one's being, clarifying the mind and vitalizing the body." }
+    ]
+},
+{
+    word: "Indu (इन्दु)",
+    root: "Uncertain, related to 'drop'",
+    short_meaning: "A bright drop, a poetic term for Soma.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "A drop of the Soma juice. A frequent and affectionate term for the offering, also later associated with the Moon." },
+        { source: "Western Philology", meaning: "A poetic synonym for Soma, emphasizing its nature as a liquid offering composed of individual drops. Its later connection to the moon solidifies the Soma-Moon identification." }
+    ]
+},
+{
+    word: "Mada (मद)",
+    root: "√mad 'to rejoice, be intoxicated'",
+    short_meaning: "Intoxication, exhilaration, inspiration, ecstasy.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "The exhilarating and intoxicating effect of the Soma drink, which gives Indra the strength to fight Vṛtra and inspires the rishis to compose hymns." },
+        { source: "Aurobindo (Indian)", meaning: "Spiritual ecstasy or divine bliss (Ananda). It is not mere physical intoxication but the joy of the divine consciousness flooding the being." }
+    ]
+},
+{
+    word: "Adribhiḥ (अद्रिभिः)",
+    root: "adri 'stone, rock'",
+    short_meaning: "With the pressing stones.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "The instrumental plural of 'adri,' meaning the stones used by the priests to press the Soma stalks and extract the juice." },
+        { source: "Western Ritual Study", meaning: "A key implement of the Soma ritual. The 'adri' are often personified and spoken to in the hymns, highlighting the deification of even the functional elements of the sacrifice." }
+    ]
+},
+{
+    word: "Kalāśa (कलश)",
+    root: "Uncertain",
+    short_meaning: "A jar, vat, or pitcher used for Soma.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "The wooden vat or container into which the purified Soma juice is collected. Often described as the 'womb' for the Soma." },
+        { source: "Aurobindo (Indian)", meaning: "Symbolizes the human body-consciousness or the system of the being, which acts as the vessel to receive and hold the divine bliss (Soma)." }
+    ]
+},
+{
+    word: "Andhas (अन्धस्)",
+    root: "Uncertain, possibly related to 'herb'",
+    short_meaning: "The Soma plant itself.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "A term for the Soma plant, distinct from the juice (rasa). It refers to the physical substance that is pressed." },
+        { source: "Western Botany/History", meaning: "A key term in the debate over the botanical identity of the original Soma plant. Scholars have proposed various candidates like Ephedra, fly agaric, or Syrian rue for the 'Andhas'." }
+    ]
+},
+{
+    word: "Rasā (रसा)",
+    root: "√ras 'to taste'",
+    short_meaning: "Essence, juice; a mythical cosmic river.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "Can mean the juice or essence of the Soma. It is also the name of a mythical river that encircles the world, which the Paṇis had to cross." },
+        { source: "Michael Witzel (Western)", meaning: "A mythical river corresponding to the Avestan 'Raŋhā,' representing the boundary between the ordered world and the realm of chaos or the underworld. It has parallels in other Indo-European mythologies (e.g., the Greek Styx)." }
+    ]
+},
+{
+    word: "Hari (हरि)",
+    root: "√hṛ 'to take' or related to 'yellow/tawny'",
+    short_meaning: "Tawny, yellow-green; an epithet for Soma and Indra's horses.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "An adjective describing the yellowish or greenish color of the Soma stalks or the pressed juice. Also the name of Indra's two tawny bay horses." },
+        { source: "Aurobindo (Indian)", meaning: "Symbolizes brilliant, dynamic energy. Indra's 'hari' horses are the twin powers of divine light and divine action that carry the illumined mind." }
+    ]
+},
+{
+    word: "Vana (वन)",
+    root: "√van 'to like, desire'",
+    short_meaning: "Forest, wood; also the wooden Soma vat.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "Can mean a forest or a tree. In the context of Mandala 9, it frequently refers to the wooden vessels (kalāśa or droṇa) into which the Soma flows, with the juice being likened to a bird flying to its 'wood' or nest." },
+        { source: "Aurobindo (Indian)", meaning: "Symbolizes the substance of being, either material or spiritual. Soma flowing into the 'vana' represents the divine bliss entering and suffusing the very substance of our existence." }
+    ]
+},
+{
+    word: "Avyāḥ Vāra (अव्याः वार)",
+    root: "avi 'sheep' + vāra 'hair, wool'",
+    short_meaning: "The sheep's wool filter for Soma.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "The filter, made of sheep's wool, through which the crushed Soma stalks are strained to purify the juice from solid particles." },
+        { source: "Western Ritual Study", meaning: "A crucial piece of ritual technology. The process of filtering Soma through the 'vara' is a central, recurring image in Mandala 9, symbolizing purification on both a physical and spiritual level." }
+    ]
+},
+
+// Words associated with Maṇḍala 10 (Later, Philosophical Hymns)
+{
+    word: "Puruṣa (पुरुष)",
+    root: "puri-śaya 'city-dweller' (in the body)",
+    short_meaning: "The cosmic person; the primordial being or pure consciousness.",
+    commentaries: [
+        { source: "Puruṣa Sūkta (RV 10.90)", meaning: "The primordial cosmic being with a thousand heads, who is sacrificed by the gods to create the universe. From his body emerge the four varṇas, the celestial bodies, and all of creation." },
+        { source: "Sāṅkhya Philosophy (Indian)", meaning: "Pure, unchanging, inactive Consciousness. It is the silent witness, distinct from Prakṛti (material nature), which is the active but non-conscious principle." },
+        { source: "Hermann Oldenberg (Western)", meaning: "A relatively late, highly speculative hymn that attempts to provide a systematic cosmology based on the model of the sacrifice. It has immense importance for later Indian social and philosophical thought." }
+    ]
+},
+{
+    word: "Hiraṇyagarbha (हिरण्यगर्भ)",
+    root: "hiraṇya 'gold' + garbha 'womb/embryo'",
+    short_meaning: "The golden embryo; the primordial source of creation.",
+    commentaries: [
+        { source: "Hiraṇyagarbha Sūkta (RV 10.121)", meaning: "The 'golden embryo' that arose in the beginning from the waters, becoming the sole lord of all existence. He established the earth and sky. The hymn repeatedly asks, 'What god shall we worship with our oblation?'" },
+        { source: "Vedānta Philosophy (Indian)", meaning: "The cosmic soul or cosmic mind (subtle body of the cosmos). It is the first manifestation of the unmanifest Brahman, the creative intelligence from which the gross universe emerges." }
+    ]
+},
+{
+    word: "Nāsadīya (नासदीय)",
+    root: "na 'not' + asat 'non-being'",
+    short_meaning: "From 'na asat' ('not non-existent'), the Creation Hymn (10.129).",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "A hymn describing the state before creation, where there was neither being (sat) nor non-being (asat). Creation arose from 'That One' (Tad Ekam) through the power of heat (tapas) and desire (kāma)." },
+        { source: "Carl Sagan (Western)", meaning: "Famously cited as an ancient example of profound philosophical and scientific skepticism, questioning the origins of the universe in a way that resonates with modern cosmology. It acknowledges the limits of human knowledge about ultimate origins." }
+    ]
+},
+{
+    word: "Yama (यम)",
+    root: "√yam 'to restrain, control'",
+    short_meaning: "The first mortal, who became the ruler of the dead.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "The king who rules over the realm of the ancestors (pitṛs). He was the first human to die and chart the path to the afterlife, and he gathers the deceased in his kingdom." },
+        { source: "Western Comparative Mythology", meaning: "Cognate with the Avestan 'Yima' and possibly Norse 'Ymir.' He is an archetypal 'first man' figure who also becomes the 'first to die,' thereby establishing the realm of the dead." }
+    ]
+},
+{
+    word: "Śraddhā (श्रद्धा)",
+    root: "śrat 'truth' + √dhā 'to put'",
+    short_meaning: "Faith, trust, belief.",
+    commentaries: [
+        { source: "Śraddhā Sūkta (RV 10.151)", meaning: "Faith personified as a goddess. It is through Śraddhā that the fire is kindled and the oblation is offered. She is invoked to bestow faith upon the sacrificer and the people." },
+        { source: "Western Scholarship", meaning: "A late hymn that deifies an abstract concept, showing the evolution of Vedic thought. It highlights the perceived necessity of 'faith' as the psychological foundation for the ritual to be effective." }
+    ]
+},
+{
+    word: "Manyu (मन्यु)",
+    root: "√man 'to think'",
+    short_meaning: "Wrath, passion, fervor, spirit.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "Wrath or anger personified as a deity. He is invoked as a form of Indra or Agni to grant vigor and destroy enemies in battle. He is the divine fury of the warrior." },
+        { source: "Aurobindo (Indian)", meaning: "Not just anger, but the divine fervor or intensity of will. It is the righteous passion and force of consciousness that overcomes obstacles on the spiritual path." }
+    ]
+},
+{
+    word: "Araṇyānī (अरण्यानी)",
+    root: "araṇya 'forest'",
+    short_meaning: "The goddess of the forest.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "The personified spirit or goddess of the wilderness. The hymn (10.146) praises her mysterious, elusive, and bounteous nature, describing the sounds and sights of the forest." },
+        { source: "Ralph T.H. Griffith (Western)", meaning: "A beautiful and rare example of a hymn dedicated to a spirit of nature, a 'nymph of the forest.' It reflects an animistic perspective and a poetic appreciation for the wild." }
+    ]
+},
+{
+    word: "Saramā (सरमा)",
+    root: "√sṛ 'to run'",
+    short_meaning: "The divine bitch; Indra's messenger.",
+    commentaries: [
+        { source: "Sāyaṇa (Indian)", meaning: "The hound of the gods, sent by Indra as a messenger to the Paṇis to demand the return of the stolen cows. Her dialogue with the Paṇis is a key part of the myth." },
+        { source: "Max Müller (Western)", meaning: "Interpreted as a nature myth, where Saramā represents the Dawn. She 'runs' ahead and finds the 'rays of light' (cows) that have been stolen by the 'darkness' (Paṇis)." }
+    ]
+},
+{
+    word: "Skambha (स्कम्भ)",
+    root: "√skambh 'to support'",
+    short_meaning: "The cosmic pillar or support (found mainly in Atharva Veda, but conceptually present).",
+    commentaries: [
+        { source: "Atharva Veda (10.7)", meaning: "The cosmic pillar or frame that supports the entire universe. It is a highly philosophical concept, identified with Brahman, that serves as the foundation for all of existence." },
+        { source: "F. B. J. Kuiper (Western)", meaning: "A cosmological concept, the *Axis Mundi*, that provides the structural support for the cosmos, separating heaven and earth and providing a conduit between them. This is a common feature in many archaic cosmologies." }
+    ]
+},
+{
+    word: "Saṁjñāna (संज्ञान)",
+    root: "saṁ 'together' + √jñā 'to know'",
+    short_meaning: "Mutual understanding, harmony, collective consciousness.",
+    commentaries: [
+        { source: "Saṁjñāna Sūkta (RV 10.191)", meaning: "The final hymn of the Rig Veda, a prayer for unity and accord. It calls for the assemblers to have a common purpose, a united heart, and a single mind so they may function together happily." },
+        { source: "Western Social View", meaning: "A powerful sociological statement expressing the ideal of social and political harmony for the Vedic assembly (samiti). It is a plea for consensus and unity, crucial for the survival and prosperity of the tribe." }
+    ]
+}  

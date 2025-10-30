@@ -1,0 +1,499 @@
+/* Modern Apple-esque UI Design */
+:root {
+    --bg1: #000000;
+    --bg2: #1c1c1e;
+    --card-bg: #1c1c1e;
+    --accent: #FF9933; /* Saffron/Orange accent */
+    --accent-glow: rgba(255, 153, 51, 0.15);
+    --text-primary: #f5f5f7;
+    --text-secondary: #8a8a8e;
+    --border-color: #38383a;
+    --accent-gradient: linear-gradient(45deg, var(--accent), #ffbf75);
+    --correct-color: #28a745;
+    --incorrect-color: #dc3545;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg1);
+    color: var(--text-primary);
+    overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+/* Prevent body scroll when mobile nav is open */
+body.nav-open {
+    overflow: hidden;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: #2a2a2a; }
+::-webkit-scrollbar-thumb { background: #555; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: var(--accent); }
+
+.app {
+    display: grid;
+    grid-template-columns: 240px 1fr; /* Sidebar width + Main content */
+    height: 100vh;
+    width: 100%;
+}
+
+.sidebar {
+    background-color: var(--bg2);
+    padding: 1.5rem;
+    border-right: 1px solid var(--border-color);
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.title { font-weight: 700; font-size: 1.5rem; color: #fff; margin-bottom: 2rem; }
+.title span { color: var(--accent); }
+
+.nav-btn {
+    display: block; width: 100%;
+    padding: 0.8rem 1rem; margin-bottom: 0.5rem;
+    border-radius: 8px; background: transparent; color: var(--text-secondary);
+    border: none; text-align: left; font-weight: 600; font-size: 0.95rem;
+    cursor: pointer; transition: background-color 0.2s, color 0.2s;
+}
+.nav-btn:hover { background-color: #2c2c2e; color: var(--text-primary); }
+.nav-btn.active { background-color: var(--accent-glow); color: var(--accent); }
+.nav-btn:disabled { opacity: 0.5; cursor: not-allowed; } /* Added disabled style */
+
+.main-content {
+    padding: 2rem 2.5rem;
+    overflow-y: auto;
+    height: 100vh;
+}
+
+.panel { display: none; animation: fadeIn 0.5s ease-in-out; }
+.panel.active { display: block; }
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(15px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.panel-header { margin-bottom: 2rem; }
+.panel-header h2 { font-size: 2.2rem; color: #fff; margin: 0 0 0.5rem 0; }
+.panel-header p { font-size: 1.1rem; color: var(--text-secondary); max-width: 800px; line-height: 1.6; }
+
+/* Card Styling */
+.card {
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Controls (Dropdowns, Buttons) */
+.controls {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+}
+
+select, input[type="search"], input[type="range"] {
+    background: #333;
+    color: var(--text-primary);
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    padding: 0.5rem 0.8rem;
+    font-size: 1rem;
+}
+
+select[multiple] {
+    min-width: 250px;
+    height: 100px;
+}
+
+.button, .styled-btn {
+    background-color: var(--accent);
+    color: var(--bg1);
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s, background-color 0.2s;
+    text-align: center;
+}
+.button:hover, .styled-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(255, 153, 51, 0.3);
+}
+.button:disabled, .styled-btn:disabled {
+    background-color: var(--border-color);
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+}
+
+/* Analytics Tabs */
+.analytic-tabs { display: flex; gap: 0.75rem; flex-wrap: wrap; margin-bottom: 1.5rem; border-bottom: 1px solid var(--border-color); padding-bottom: 1rem; }
+.analytic-tab {
+    padding: 0.6rem 1rem; border-radius: 8px; background: #333; color: var(--text-primary);
+    cursor: pointer; border: none; font-weight: 600;
+}
+.analytic-tab.active { background-color: var(--accent); color: var(--bg1); }
+
+/* Chart Containers & Grids */
+.chart-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 1.5rem; }
+.chart-container, #conceptNetworkGraph, #socioMaterialDashboard > div {
+    width: 100%;
+    min-height: 400px;
+}
+#socioMaterialDashboard {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 1.5rem;
+}
+#conceptNetworkGraph {
+    height: 60vh;
+    background: var(--bg1);
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+}
+
+
+/* Clickable Visualizations */
+.clickable-viz { cursor: pointer; transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; }
+.clickable-viz:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.2); }
+
+/* Fullscreen Modal */
+#fullscreen-modal {
+    position: fixed; top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0,0,0,0.85);
+    z-index: 1000;
+    display: none; align-items: center; justify-content: center;
+    padding: 2rem;
+    backdrop-filter: blur(5px);
+}
+#modal-content { width: 100%; height: 100%; }
+#modal-close {
+    position: absolute; top: 20px; right: 35px;
+    color: #fff; font-size: 40px; font-weight: bold;
+    cursor: pointer; z-index: 1001;
+}
+
+/* Leaflet Map Styles */
+.leaflet-popup-content-wrapper, .leaflet-popup-tip { background: var(--bg2); color: var(--text-primary); }
+.leaflet-control-attribution, .leaflet-control-layers { background: rgba(0,0,0,0.6) !important; color: var(--text-primary) !important; }
+
+/* Place List for Map */
+.place-list { columns: 3; list-style: none; padding: 0; margin-top: 1rem; }
+.place-list li { padding: 0.25rem 0; }
+
+/* Introduction Page Specifics */
+.intro-hero {
+    text-align: center;
+    padding: 2rem 0;
+    margin-bottom: 2.5rem;
+    border-bottom: 1px solid var(--border-color);
+}
+.intro-hero h2 {
+    font-size: 3rem;
+    background: var(--accent-gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0.5rem;
+    font-weight: 800;
+}
+.intro-stats {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+.stat-item { text-align: center; }
+.stat-number { font-size: 2rem; font-weight: 700; color: var(--text-primary); line-height: 1; }
+.stat-label { font-size: 0.9rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 1px; }
+
+.intro-section-title {
+    font-size: 1.8rem;
+    color: var(--text-primary);
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 3.5rem;
+    font-weight: 600;
+}
+
+/* Decoder Cards (Used in Intro, Study, Lexicon) */
+.decoder-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    perspective: 1000px;
+}
+.decoder-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    cursor: pointer;
+    transition: transform 0.6s, box-shadow 0.3s;
+    transform-style: preserve-3d;
+    position: relative;
+    min-height: 220px;
+}
+.decoder-card:hover {
+    box-shadow: 0 0 25px var(--accent-glow);
+    border-color: var(--accent);
+}
+.decoder-card.is-flipped {
+    transform: rotateY(180deg);
+}
+.decoder-card-face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    text-align: center;
+}
+.decoder-card-face h3 {
+    margin: 0;
+    font-size: 1.3rem;
+    color: var(--text-primary);
+}
+.decoder-card-face.decoder-front .icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    filter: drop-shadow(0 0 5px var(--accent-glow));
+}
+.decoder-card-face.decoder-back {
+    transform: rotateY(180deg);
+    background: #111;
+    border-radius: 12px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    overflow-y: auto;
+}
+.decoder-back p { font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6; }
+.decoder-back .example { background-color: #000; padding: 0.5rem; border-radius: 6px; font-family: monospace; font-size: 0.9rem; color: var(--accent); border: 1px solid var(--border-color); margin-top: 0.5rem; }
+.decoder-back .example span { color: var(--text-secondary); }
+.decoder-back h4 { color: var(--accent); margin: 0 0 0.5rem 0; font-size: 1.1rem; }
+.decoder-back .info-list { list-style: none; padding: 0; margin: 0.5rem 0 0 0; width: 100%; }
+.decoder-back .info-list li { font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 0.3rem; }
+.decoder-back .info-list strong { color: var(--text-primary); font-weight: 600; }
+
+/* Structure Timeline */
+.structure-timeline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: 2rem auto;
+    max-width: 800px;
+}
+.timeline-item { text-align: center; }
+.timeline-item h4 { margin: 0.5rem 0 0; color: var(--text-primary); font-size: 1rem; }
+.timeline-item p { margin: 0; color: var(--text-secondary); font-size: 0.85rem; }
+.timeline-arrow { font-size: 2rem; color: var(--accent); transform: translateY(-10px); }
+
+.section-divider { border: 0; height: 1px; background: var(--border-color); margin: 3.5rem 0; }
+
+/* --- STUDY MODE & QUIZ STYLES --- */
+#quiz-container { max-width: 800px; margin: 2rem auto; }
+.quiz-question { font-size: 1.5rem; font-weight: 600; margin-bottom: 1.5rem; text-align: center; color: var(--text-primary); }
+.quiz-options { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1.5rem; }
+.quiz-option {
+    background-color: var(--card-bg); border: 1px solid var(--border-color);
+    color: var(--text-secondary); padding: 1rem; border-radius: 8px;
+    font-size: 1rem; cursor: pointer; transition: all 0.2s; text-align: center;
+}
+.quiz-option:hover { border-color: var(--accent); color: var(--text-primary); transform: translateY(-3px); }
+.quiz-option.correct { background-color: var(--correct-color); border-color: var(--correct-color); color: #fff; }
+.quiz-option.incorrect { background-color: var(--incorrect-color); border-color: var(--incorrect-color); color: #fff; }
+.quiz-option.disabled { pointer-events: none; opacity: 0.7; }
+.quiz-feedback { text-align: center; font-size: 1.1rem; font-weight: bold; min-height: 2rem; margin-bottom: 1.5rem; }
+.quiz-controls { display: flex; justify-content: center; align-items: center; gap: 1.5rem; flex-wrap: wrap; }
+#quiz-score { font-size: 1.2rem; }
+
+/* --- LEXICON STYLES --- */
+#lexicon-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background-color: var(--bg2);
+    border-radius: 12px;
+    border: 1px solid var(--border-color);
+}
+.lexicon-search-bar { width: 100%; }
+#lexicon-search { width: 100%; font-size: 1.1rem; padding: 0.8rem; }
+
+.lexicon-accordion .accordion-header {
+    background: var(--bg2);
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid var(--border-color);
+    transition: background-color 0.2s;
+}
+.lexicon-accordion .accordion-header:hover { background-color: #2c2c2e; }
+.lexicon-accordion .accordion-header h3 { margin: 0; font-size: 1.2rem; }
+.lexicon-accordion .accordion-header .count-badge {
+    background: #333;
+    color: var(--text-secondary);
+    padding: 0.2rem 0.6rem;
+    border-radius: 10px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+.lexicon-accordion .accordion-header .indicator {
+    font-size: 1.5rem;
+    transition: transform 0.3s;
+}
+.lexicon-accordion .accordion-content {
+    display: none;
+    padding: 1rem 0.5rem;
+    border-left: 2px solid var(--border-color);
+    margin-left: 1rem;
+}
+.lexicon-accordion.active .accordion-header { border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
+.lexicon-accordion.active .accordion-header .indicator { transform: rotate(45deg); }
+.lexicon-accordion.active .accordion-content { display: block; }
+
+.lexicon-back {
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    padding: 1rem 1.5rem;
+    overflow-y: auto;
+}
+.lexicon-back h4 {
+    color: var(--accent); margin: 0.75rem 0 0.5rem 0; font-size: 1rem;
+    font-weight: 600; border-bottom: 1px solid var(--border-color);
+    padding-bottom: 0.25rem; width: 100%;
+}
+.lexicon-back p { font-size: 0.9rem; color: var(--text-secondary); line-height: 1.5; margin: 0.25rem 0; }
+.lexicon-back p strong { color: var(--text-primary); }
+#lexicon-content .decoder-card { min-height: 280px; }
+#lexicon-content .decoder-grid { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+
+/* --- NEW SECTION INFO STYLES --- */
+/* Updated for #conceptEvolutionInfo */
+#narrativeInfo p, #conceptEvolutionInfo p, #meterMandalaInfo p, #meterRishiInfo p,
+#conceptInfo p, #socioMaterialInfo p {
+    line-height: 1.7;
+    color: var(--text-secondary);
+    margin-bottom: 1rem;
+}
+#narrativeInfo p strong, #conceptEvolutionInfo h4, #conceptInfo h4, #socioMaterialInfo h4 {
+    color: var(--text-primary);
+    font-weight: 600;
+}
+    #conceptEvolutionInfo h4, #conceptInfo h4, #socioMaterialInfo h4 { /* Included conceptEvolutionInfo */
+    color: var(--accent);
+    margin-top: 1rem;
+    margin-bottom: 0.25rem;
+}
+#meterMandalaInfo h4, #meterRishiInfo h4 {
+    color: var(--text-primary);
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+/* --- RESPONSIVE & MOBILE NAV STYLES --- */
+.mobile-nav-toggle {
+    display: none;
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    z-index: 1001;
+    background: var(--bg2);
+    border: 1px solid var(--border-color);
+    color: var(--text-primary);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 24px;
+    cursor: pointer;
+}
+.mobile-nav-toggle .line {
+    width: 24px; height: 2px;
+    background: var(--text-primary);
+    display: block; margin: 5px auto;
+    transition: all 0.3s ease-in-out;
+}
+.nav-open .mobile-nav-toggle .line1 { transform: rotate(45deg) translate(5px, 5px); }
+.nav-open .mobile-nav-toggle .line2 { opacity: 0; }
+.nav-open .mobile-nav-toggle .line3 { transform: rotate(-45deg) translate(5px, -5px); }
+
+@media (max-width: 1024px) {
+    .app {
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+    .main-content {
+        height: auto;
+        min-height: 100vh;
+    }
+    .sidebar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 250px;
+        z-index: 1000;
+        transform: translateX(-100%);
+        border-right: 1px solid var(--border-color);
+    }
+    .sidebar.is-open {
+        transform: translateX(0);
+    }
+    .mobile-nav-toggle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .place-list { columns: 2; }
+    .intro-hero h2 { font-size: 2.5rem; }
+}
+
+@media (max-width: 768px) {
+    .place-list { columns: 1; }
+    .structure-timeline { flex-direction: column; gap: 0.5rem; }
+    .timeline-arrow { transform: rotate(90deg) translateY(0); }
+    .quiz-options { grid-template-columns: 1fr; }
+    .chart-grid { grid-template-columns: 1fr; }
+    #socioMaterialDashboard { grid-template-columns: 1fr; }
+    .main-content { padding: 1.5rem 1rem; }
+    .panel-header h2 { font-size: 1.8rem; }
+    .panel-header p { font-size: 1rem; }
+    .intro-stats { gap: 1rem; flex-wrap: wrap; }
+    .stat-item { flex-basis: 40%; }
+}
+
+@media (max-width: 480px) {
+    .intro-hero h2 { font-size: 2.2rem; }
+    .intro-section-title { font-size: 1.5rem; }
+    .panel-header h2 { font-size: 1.6rem; }
+    .lexicon-accordion .accordion-header h3 { font-size: 1.1rem; }
+    .decoder-card-face h3 { font-size: 1.2rem; }
+    .chart-grid { grid-template-columns: 1fr; }
+}

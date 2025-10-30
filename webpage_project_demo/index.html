@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rig Veda Analysed</title>
+    <script src="https://cdn.plot.ly/plotly-2.24.1.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+    <button class="mobile-nav-toggle" id="mobile-nav-toggle" aria-label="Toggle navigation">
+        <span class="line line1"></span>
+        <span class="line line2"></span>
+        <span class="line line3"></span>
+    </button>
+
+    <div class="app">
+        <aside class="sidebar" id="sidebar">
+            <div class="title">RigVeda<span>Analysed</span></div>
+            <nav>
+                <button class="nav-btn active" data-panel="intro">Introduction</button>
+                <button class="nav-btn" data-panel="narratives">Deity Narratives</button>
+                <button class="nav-btn" data-panel="concept-evolution">Evolution of Concepts</button>
+                <button class="nav-btn" data-panel="meter-evolution">Meter Evolution</button>
+                <button class="nav-btn" data-panel="analytics">Corpus Analytics</button>
+                <button class="nav-btn" data-panel="geomap">Geographic Map</button>
+                <button class="nav-btn" data-panel="concepts">Conceptual Constellations</button>
+                <button class="nav-btn" data-panel="socio">Socio-Material Analytics</button>1
+                <button class="nav-btn" data-panel="timeline">Rishi Timeline</button>
+                <button class="nav-btn" data-panel="atlas">Rishi Atlas</button>
+                <button class="nav-btn" data-panel="study">Study / test</button>
+                <button class="nav-btn" data-panel="lexicon">Commentaries</button>
+            </nav>
+        </aside>
+
+        <main class="main-content">
+            <section id="panel-intro" class="panel active">
+                <div class="intro-hero">
+                    <h2>Journey into the Cosmic Verse</h2>
+                    <p class="text-secondary">Explore one of humanity's oldest sacred texts through interactive data visualizations.</p>
+                    <div class="intro-stats">
+                        <div class="stat-item">
+                            <div id="stat-mandalas" class="stat-number">0</div>
+                            <div class="stat-label">Maṇḍalas</div>
+                        </div>
+                        <div class="stat-item">
+                            <div id="stat-hymns" class="stat-number">0</div>
+                            <div class="stat-label">Hymns</div>
+                        </div>
+                        <div class="stat-item">
+                            <div id="stat-verses" class="stat-number">0</div>
+                            <div class="stat-label">Verses</div>
+                        </div>
+                    </div>
+                </div>
+
+                <h3 class="intro-section-title">Anatomy of an Ancient Text</h3>
+                <div class="structure-timeline">
+                    <div class="timeline-item">
+                        <h4>Maṇḍala</h4><p>(Book)</p>
+                    </div>
+                    <div class="timeline-arrow">&rarr;</div>
+                    <div class="timeline-item">
+                        <h4>Sūkta</h4><p>(Hymn / full song)</p>
+                    </div>
+                    <div class="timeline-arrow">&rarr;</div>
+                    <div class="timeline-item">
+                        <h4>Ṛc</h4><p>(Verse)</p>
+                    </div>
+                </div>
+
+                <h3 class="intro-section-title">Vedic Sanskrit Basics (click cards for details)</h3>
+                <div class="decoder-grid">
+                    <div class="decoder-card">
+                        <div class="decoder-card-face decoder-front"><div class="icon">📜</div><h3>Nouns Have Many Forms</h3><p class="text-secondary">Case endings reveal a word's role, allowing for flexible word order.</p></div>
+                        <div class="decoder-card-face decoder-back"><p>A word's ending (its 'case') reveals its grammatical function. This makes word order much more fluid than in English.</p><div class="example">agníḥ <span>(the fire, as subject)</span><br>agním <span>(the fire, as object)</span></div></div>
+                    </div>
+                    <div class="decoder-card">
+                        <div class="decoder-card-face decoder-front"><div class="icon">🌱</div><h3>Verbs Grow from Roots</h3><p class="text-secondary">Most verbs are derived from a core root (Dhātu) that holds the essential meaning.</p></div>
+                        <div class="decoder-card-face decoder-back"><p>A small set of core roots (Dhātus) form the basis for thousands of conjugated verbs, carrying concepts like 'to go', 'to be', or 'to know'.</p><div class="example">√gam <span>(root for 'to go')</span><br>gacchati <span>(he/she/it goes)</span></div></div>
+                    </div>
+                    <div class="decoder-card">
+                        <div class="decoder-card-face decoder-front"><div class="icon">🎶</div><h3>Sounds Merge with Sandhi</h3><p class="text-secondary">Adjacent sounds blend together following euphonic rules for a poetic flow.</p></div>
+                        <div class="decoder-card-face decoder-back"><p>To create a more harmonious and flowing sound, the last letter of one word and the first letter of the next often combine. This is called 'Sandhi' (joining).</p><div class="example">ca + iti &rarr; ceti</div></div>
+                    </div>
+                </div>
+                <hr class="section-divider">
+            </section>
+
+            <section id="panel-timeline" class="panel">
+                <div class="panel-header"><h2>Rishi Timeline</h2><p>This is a graphical representation of all rishis in their respective time line of existance with how much of literature is attributed to them</p></div>
+                <div class="card">
+                    <div class="controls"><label for="rishiCount" class="text-secondary">Top Rishis:</label><input id="rishiCount" type="range" min="10" max="100" value="50" style="width:200px"><span id="rishiCountLabel">50</span></div>
+                    <div id="timelineChart" class="chart-container" style="height: 75vh;"></div>
+                </div>
+            </section>
+
+            <section id="panel-atlas" class="panel">
+                <div class="panel-header"><h2>Contribution of each rishi per mandala visualized </h2><p>A panoramic view of the ten Maṇḍalas (books). Select a Mandala from the dropdown to see the proportional contribution of its primary Ṛṣis (seers) visualized as a pie chart.</p></div>
+                <div class="card">
+                    <div class="controls"><label for="mandalaSelector" class="text-secondary">Select Mandala:</label><select id="mandalaSelector"></select></div>
+                    <div id="mandalaPieChart" class="chart-container" style="height: 70vh;"></div>
+                </div>
+            </section>
+
+            <section id="panel-analytics" class="panel">
+                <div class="panel-header"><h2>Corpus Analytics</h2><p>Explore statistical distributions and relationships within the Rig Veda metadata. Click on any visualization to view it in full-screen.</p></div>
+                <div class="analytic-tabs">
+                    <button class="analytic-tab active" data-seg="themes">Theme Map</button>
+                    <button class="analytic-tab" data-seg="distributions">Key Metrics</button>
+                    <button class="analytic-tab" data-seg="adv-distributions">Advanced Distributions</button>
+                    <button class="analytic-tab" data-seg="network">Co-occurrence</button>
+                </div>
+                <div id="analytics-content-area">
+                    <div id="seg-themes" class="analytics-segment active"><div class="card"><h3>Thematic Analysis</h3><p class="text-secondary">Use sliders to see the distribution of hymns related to a theme across the Mandalas. The chart shows the percentage of a Mandala's hymns that match the selected theme keywords.</p><div class="controls" id="theme-sliders"></div><div id="themeChart" class="chart-container"></div></div></div>
+                    <div id="seg-distributions" class="analytics-segment" style="display:none;"><div class="chart-grid"><div class="card clickable-viz" data-viz-type="divinity"><h3>Top 20 Divinities</h3><div id="divChart" class="chart-container"></div></div><div class="card clickable-viz" data-viz-type="meter"><h3>Meter Distribution</h3><div id="meterChart" class="chart-container"></div></div></div></div>
+                    <div id="seg-adv-distributions" class="analytics-segment" style="display:none;"><div class="chart-grid"><div class="card clickable-viz" data-viz-type="divinity-heatmap"><h3>Divinity Prominence Heatmap</h3><div id="divHeatmapChart" class="chart-container"></div></div><div class="card clickable-viz" data-viz-type="verse-dist"><h3>Verse Count Distribution</h3><div id="verseDistChart" class="chart-container"></div></div></div></div>
+                    <div id="seg-network" class="analytics-segment" style="display:none;"><div class="card clickable-viz" data-viz-type="network"><h3>Deity Co-occurrence Network</h3><p class="text-secondary" style="margin-bottom: 1rem;">Nodes are deities, edges link deities mentioned in the same hymn. Edge thickness represents co-occurrence frequency.</p><div id="deityNetContainer" style="height:60vh; background:var(--bg1); border-radius:8px;"></div></div></div>
+                </div>
+            </section>
+
+            <section id="panel-narratives" class="panel">
+                <div class="panel-header">
+                    <h2>Deity Narrative Map</h2>
+                    <p>Explore the primary narratives and themes associated with major Rig Vedic deities.</p>
+                </div>
+                <div class="card">
+                    <div class="controls">
+                        <label for="narrativeDeitySelector" class="text-secondary">Select Deity:</label>
+                        <select id="narrativeDeitySelector"></select>
+                    </div>
+                    <div id="narrativeChart" class="chart-container" style="height: 60vh;"></div>
+                </div>
+                <div class="card">
+                    <h3>About These Narratives</h3>
+                    <div id="narrativeInfo">
+                        <p class="text-secondary">Select a deity from the dropdown to see a breakdown of their associated themes and stories as represented in the hymns.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="panel-concept-evolution" class="panel">
+                <div class="panel-header">
+                    <h2>Evolution of Concepts</h2>
+                    <p>Track the prominence and thematic evolution of key deities, rishis, and concepts across the ten Maṇḍalas.</p>
+                </div>
+                <div class="card">
+                    <div class="controls">
+                        <label for="conceptEvolutionSelector" class="text-secondary">Select Concepts (max 3):</label>
+                        <select id="conceptEvolutionSelector" multiple></select>
+                    </div>
+                    <div id="conceptEvolutionChart" class="chart-container" style="height: 60vh;"></div>
+                </div>
+                <div class="card">
+                    <h3>Interpreting the Evolution</h3>
+                    <div id="conceptEvolutionInfo">
+                        <p class="text-secondary">Select one or more items (deities, rishis, concepts) to visualize their changing prominence (based on hymn attributions or keyword frequency) from the earliest to the latest Maṇḍalas.</p>
+                        <h4>Key Observations</h4>
+                        <p id="conceptEvolutionKeyObs" class="text-secondary">Observations based on selected items will appear here.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="panel-meter-evolution" class="panel">
+                <div class="panel-header">
+                    <h2>Evolution of Poetic Meters</h2> <p>Analyze the distribution of poetic meters (Chandas) across Maṇḍalas and their preference by major Ṛṣi families using different chart styles.</p>
+                </div>
+                <div class="card">
+                    <h3>Meter Distribution by Maṇḍala (Stacked Area)</h3> <p class="text-secondary">This chart shows the percentage of hymns composed in each major meter for all ten Maṇḍalas using a stacked area visualization to highlight trends over time.</p>
+                    <div id="meterMandalaAreaChart" class="chart-container" style="height: 60vh;"></div> <div id="meterMandalaInfo" style="margin-top: 1rem;">
+                        <h4>Observations on Meter by Maṇḍala</h4>
+                        <p>The Rig Veda shows a distinct evolution in metrical preference. The "family books" (Maṇḍalas 2-7) show strong, established preferences. For example, Maṇḍala 2 (Gṛtsamada) is overwhelmingly Triṣṭubh, while Maṇḍala 3 (Viśvāmitra) heavily features Gāyatrī. Later Maṇḍalas, like 1 and 10, show a much greater diversity of meters, including more complex forms. The area chart emphasizes the dominance shifts.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3>Meter Preference by Ṛṣi Family (Grouped Bar)</h3> <p class="text-secondary">This chart compares the metrical "fingerprint" of the primary Ṛṣis for the core family books (Maṇḍalas 2-7).</p>
+                     <div class="controls">
+                         <label for="rishiMeterSelector" class="text-secondary">Select Ṛṣi Families:</label>
+                         <select id="rishiMeterSelector" multiple></select>
+                     </div>
+                    <div id="meterRishiChart" class="chart-container" style="height: 60vh;"></div> <div id="meterRishiInfo" style="margin-top: 1rem;">
+                        <h4>Observations on Meter by Ṛṣi</h4>
+                        <p>Each Ṛṣi family (Kula) had a clear preference. The <strong>Gṛtsamadas</strong> (M. 2) perfected the 11-syllable Triṣṭubh, suiting heroic hymns to Indra. The <strong>Viśvāmitras</strong> (M. 3) are masters of the 8-syllable Gāyatrī, used for hymns to Agni and in the famous Gāyatrī mantra. The <strong>Vasiṣṭhas</strong> (M. 7) also favored the Triṣṭubh but showed more flexibility. This specialization highlights the distinct schools of poetic tradition within the Vedic period.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="panel-geomap" class="panel">
+                <div class="panel-header"><h2>Map of the Rig Vedic Civilization</h2><p>This map shows approximate locations of rivers and regions mentioned across all Mandalas. Markers are colored by certainty (Orange = Higher).</p></div>
+                <div class="card">
+                    <div id="geoMapContainer" style="height:70vh; border-radius:12px;"></div>
+                    <h3 style="margin-top: 1.5rem;">Identified Locations on Map:</h3>
+                    <div id="place-list-container"></div>
+                </div>
+            </section>
+
+            <section id="panel-concepts" class="panel">
+                <div class="panel-header">
+                    <h2>Conceptual Constellations</h2>
+                    <p>Explore the relationships between core Vedic concepts, deities, and actions. This feature uses (simulated) co-occurrence analysis to show what ideas are linked in the text.</p>
+                </div>
+                <div class="card">
+                    <div class="controls">
+                        <label for="conceptSelector" class="text-secondary">Select a Core Concept:</label>
+                        <select id="conceptSelector"></select>
+                    </div>
+                    <div id="conceptNetworkGraph" class="chart-container"></div>
+                </div>
+                <div class="card">
+                    <h3>About This Concept</h3>
+                    <div id="conceptInfo">
+                        <p class="text-secondary">Select a concept from the dropdown to see its network.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="panel-socio" class="panel">
+                <div class="panel-header">
+                    <h2>The World of the Veda</h2>
+                    <p>A dashboard visualizing the tangible world and society described in the hymns, based on (simulated) word frequency analysis.</p>
+                </div>
+                <div class="card">
+                     <div id="socioMaterialDashboard">
+                         </div>
+                </div>
+                <div class="card">
+                    <h3>Interpreting the Data</h3>
+                    <div id="socioMaterialInfo">
+                        <h4>Key Observations</h4>
+                        <p>This (simulated) data reveals the priorities of the Vedic people. The overwhelming prominence of <strong>'Gau' (Cow)</strong> and <strong>'Aśva' (Horse)</strong> highlights a pastoral-warrior society. Cows represented mobile wealth and sustenance, while horses were essential for transport, battle, and ritual.</p>
+                        <p>The social roles chart shows the clear hierarchy of <strong>'Rājan' (King)</strong> as the leader/patron and <strong>'Purohita' (Priest)</strong> as the ritual specialist, with the <strong>'Viś' (People/Tribe)</strong> forming the societal base.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="panel-study" class="panel">
+                <div class="panel-header"><h2>Study Mode: The Maṇḍala Challenge</h2><p>Learn about each Maṇḍala using the interactive cards below, then test your knowledge with the challenge!</p></div>
+                <div id="study-learn-phase"><h3 class="intro-section-title" style="margin-top: 0;">Learn the Maṇḍalas</h3><div class="decoder-grid" id="mandala-card-grid"></div></div>
+                <hr class="section-divider">
+                <div id="study-challenge-phase"><h3 class="intro-section-title">The Challenge</h3><div id="quiz-container"></div><div class="quiz-controls"><button id="start-quiz-btn" class="styled-btn">Start Challenge</button></div></div>
+            </section>
+
+            <section id="panel-lexicon" class="panel">
+                <div class="panel-header">
+                    <h2>Vedic Lexicon Explorer</h2>
+                    <p>Explore key terms through traditional Indian and modern Western lenses. Use the search bar to navigate the collection by category.</p>
+                </div>
+                <div id="lexicon-controls">
+                    <div class="lexicon-search-bar">
+                        <input type="search" id="lexicon-search" placeholder="Search for a word (e.g., Agni, Satya)...">
+                    </div>
+                </div>
+                <div id="lexicon-content"></div>
+            </section>
+
+            </main>
+    </div>
+
+    <div id="fullscreen-modal"><span id="modal-close">&times;</span><div id="modal-content"></div></div>
+
+
+</body>
+</html>
