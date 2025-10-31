@@ -16,7 +16,7 @@ This project is a data-driven exploration of the Rig Veda, one of the oldest ext
 
 This analysis is built around several key domains of inquiry. **[Feel free to add or remove sections based on your actual project's scope.]**
 
-### 1. ⚡ Deity Prominence & Analysis
+### 1. ⚡ Deity Narraive Analysis
 * **Frequency Analysis:** Visualizing the most frequently mentioned deities (e.g., Agni, Indra, Soma) across the entire Samhita.
 * **Distribution:** Mapping the prominence of different gods across the 10 Mandalas (books) to observe thematic focuses.
 * **Co-occurrence:** Analyzing which deities are most often mentioned together, potentially revealing associated pairings or groups.
@@ -26,9 +26,8 @@ This analysis is built around several key domains of inquiry. **[Feel free to ad
 * **Location Analysis:** Extracting references to specific regions, mountains, and settlements to build a geographical map of the text.
 
 ### 3. 📜 Linguistic & Textual Analysis
-* **Word Frequency:** Identifying the most common and significant non-deity words.
-* **Vocabulary Richness:** Comparing the unique vocabulary used in different Mandalas (e.g., the "family books" vs. the later books).
-
+* **Meter Evolution:** How the meter of poems used in all 10 chapters have eveloved over the course.
+* **Rishi meter preference*: Which rishis clans preffer which meter inorder to write their poems 
 
 ### 4. 👨‍👩‍👧 Rishi & Authorship Analysis
 * **Hymn Distribution:** Visualizing the distribution of hymns attributed to different Rishis (sages) and their families.
