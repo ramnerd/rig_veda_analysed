@@ -1,3 +1,4 @@
+# U CAN VIEW MY HOSTED WEBSITE HERE https://raman-hacks.onrender.com/
 Here is a comprehensive README for your "Rig Veda Analysed" project, built to mirror the academic rigor, computational depth, and detailed structure of your IVC script paper.
 
 This new README frames your "Rig Veda Explorer" as a powerful computational analysis framework, detailing its methodology and in-depth findings on the text's key features.
