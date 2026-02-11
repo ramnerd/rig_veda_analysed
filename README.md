@@ -1,20 +1,23 @@
-# U CAN VIEW MY HOSTED WEBSITE HERE https://raman-hacks.onrender.com/
-
 ---
 
 # Rig Veda Analysed: A Computational Framework for Quantitative Exegesis and Thematic Network Analysis
+
+<img width="1377" height="593" alt="image" src="https://github.com/user-attachments/assets/1d52c5eb-de37-48a9-a1a4-736e566970f4" />
 
 ## Abstract
 
 The **Rig Veda Samhita (RV)**, a foundational corpus of immense linguistic, cultural, and historical value, presents formidable challenges to comprehensive analysis due to its sheer scale, archaic language, and complex, stratified internal structure. Traditional qualitative exegesis, while invaluable, struggles to map the vast web of quantitative relationships within the text. This paper introduces the **"Rig Veda Analysed"** project, a novel computational framework designed to augment traditional philology with data-driven, quantitative insights. We employ a multi-stage pipeline beginning with **Temporal Stratification** to differentiate the "Family Books" (Mandalas 2-7) from later additions (Mandalas 1, 10). We then apply **Sanskrit-specific Named Entity Recognition (NER)** to tag deities, rishis, geographical locations, and abstract concepts. Advanced **Thematic Modeling** (e.g., Latent Dirichlet Allocation) is used to cluster sūktas by underlying topics. Finally, we apply **Social and Conceptual Network Analysis** to map the inter-relationships between these entities. The results provide unprecedented, data-driven visualizations and metrics for **deity prominence**, the **Rishi-family authorship network**, the **geographical world of the Saptasindhu**, and the **chronological evolution of concepts** (e.t., the shift from ritual focus to cosmological speculation). This framework transforms the Rig Veda from a static corpus into a dynamic, queryable, and structured database, offering a verifiable and scalable solution for the quantitative analysis of complex ancient texts.
 
 ---
+<img width="1418" height="598" alt="image" src="https://github.com/user-attachments/assets/3b5be947-f55c-4e82-ba43-037fb3103814" />
 
 ## 1. Introduction
 
 For centuries, the study of the Rig Veda has been the domain of philology, linguistics, and religious studies. These qualitative approaches have established the text's fundamental importance, identifying its linguistic layers and core theological ideas. However, they are ill-equipped to process the text's 1,028 hymns (sūktas) and 10,600 verses (ṛcas) as a single, interconnected data system. Questions of statistical prominence, conceptual correlation, and systemic evolution remain difficult to answer.
 
 This research addresses this gap by introducing **Rig Veda Analysed**, a computational framework that treats the entire Samhita as a structured dataset. Our primary objective is to apply modern data science techniques to quantify the text's internal structures, providing a verifiable, data-driven foundation for long-standing scholarly hypotheses.
+
+<img width="1417" height="707" alt="image" src="https://github.com/user-attachments/assets/7063ade8-7161-4029-9118-3765a7ebe8f0" />
 
 ### 1.1. Novelty and Contribution
 
